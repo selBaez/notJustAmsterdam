@@ -1,0 +1,71 @@
+@prefix : <http://www.notjustamsterdam.org/> .
+@prefix nja: <http://www.notjustamsterdam.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://www.notjustamsterdam.org/> .
+
+
+{
+
+nja:Challenge001 a nja:Challenge ;
+        rdfs:label "Dizzy dizzy duck" ;
+	nja:challenge_id "cl001" ;
+        nja:challenge_type "Recreational Smoker" ;
+        nja:challenge_description "Visit Dizzy Duck coffeeshop in the Hague, buy a pre-rolled joint and smoke it in the park that is nearby. To prove the completion take a selfie in the park with the joint!"^^xsd:string ;
+        nja:challenge_cost "35.0"^^xsd:float ;
+        nja:challenge_benefit "Discount on the ticket to visit the Hague, discount on the product required to complete the challenge from Dizzy Duck coffee shop"^^xsd:string ;
+	nja:challenge_address "Trompstraat 210, 2518 BR Den Haag"^^xsd:string ;
+	nja:challenge_city "The Hague"^^xsd:string .
+
+
+nja:Challenge002 a nja:Challenge ;
+        rdfs:label "By the canal" ;
+	nja:challenge_id "cl002" ;
+        nja:challenge_type "Recreational Smoker" ;
+        nja:challenge_description "Visit Bebop coffeeshop in Leiden, buy 1 gram of their best hash, roll and smoke a blunt in the excellent environment that they provide. To prove the completion take a selfie in the coffeeshop!"^^xsd:string ;
+        nja:challenge_cost "25.0"^^xsd:float ;
+        nja:challenge_benefit "Discount on the ticket to visit Leiden, discount on the product required to complete the challenge from Bebop coffee shop"^^xsd:string ;
+	nja:challenge_address "Diefsteeg 3, 2311 TS Leiden"^^xsd:string ;
+	nja:challenge_city "Leiden"^^xsd:string .
+
+
+nja:Challenge003 a nja:Challenge ;
+        rdfs:label "High as a Birdy!" ;
+	nja:challenge_id "cl003" ;
+        nja:challenge_type "Recreational Smoker" ;
+        nja:challenge_description "Visit Birdy coffeeshop in Haarlem, buy weed, roll, smoke and play a game of pool! To prove the completion ask someone to take a photo of you by the pool!"^^xsd:string ;
+        nja:challenge_cost "20.0"^^xsd:float ;
+        nja:challenge_benefit "Discount on the ticket to visit Haarlem, free games inside the coffeeshop for 1 hour!"^^xsd:string ;
+	nja:challenge_address "Schoterweg 19, 2021 HZ Haarlem"^^xsd:string ;
+	nja:challenge_city "Haarlem"^^xsd:string .
+
+
+nja:Challenge004 a nja:Challenge ;
+        rdfs:label "The Potanic" ;
+	nja:challenge_id "cl004" ;
+        nja:challenge_type "Recreational Smoker" ;
+        nja:challenge_description "Destination: Utrecht, coffeeshop name? Culture Boat. The floating coffeeshop, ask for their special! To prove the completion take a selfie on the hull of the boat!"^^xsd:string ;
+        nja:challenge_cost "40.0"^^xsd:float ;
+        nja:challenge_benefit "Discount on the ticket to visit Utrecht, discount on the product required to complete the challenge from the Culture Boat coffee shop"^^xsd:string ;
+	nja:challenge_address "Wittevrouwensingel 206, 3572 CE Utrecht"^^xsd:string ;
+	nja:challenge_city "Utrecht"^^xsd:string .
+
+
+nja:Challenge005 a nja:Challenge ;
+        rdfs:label "Puff puff Bob" ;
+	nja:challenge_id "cl005" ;
+        nja:challenge_type "Recreational Smoker" ;
+        nja:challenge_description "Visit the city of Rotterdam and Bob Marley coffeeshop. As the name suggests chilly reggae music and marijuana. To complete the challenge take a selfie outside the shop with what goodies you bought!"^^xsd:string ;
+        nja:challenge_cost "35.0"^^xsd:float ;
+        nja:challenge_benefit "Discount on the ticket to visit Rotterdam, 30% discount on everything you buy from the coffeeshop"^^xsd:string ;
+	nja:challenge_address "Nieuwe Binnenweg 403A, 3023 EM Rotterdam"^^xsd:string ;
+	nja:challenge_city "Rotterdam"^^xsd:string .
+
+}
+
