@@ -72,7 +72,7 @@ def routeCreation(potential_challenges):
 
 #################################### INPUTS ####################################
 #TODO get inputs through command line?
-personal_data = {"Name": "Sofia Ramos", "Gender": "Female"}
+personal_data = {"Name": "Sofia Ramos", "Gender": "Female", "Age": 23}
 questionnaire_answers = ['a', 'a', 'a', 'a', 'a', 'b', 'b', 'b', 'b', 'c']
 budget = 800.0
 time = 7
@@ -89,9 +89,11 @@ personality = {}
 profile = profileUpdate(profile, personality)
 
 #TODO: Get challenges based on Watson Tradeoff Analytics
-potential_challenges = tradeOff.analyze()
+potential_challenges = tradeOff.analyze(profile)
 
 # Create circular route
 challenge_route = routeCreation(potential_challenges)
+
+# Maybe save into file? 
 
 print("We did it! Yay!")
