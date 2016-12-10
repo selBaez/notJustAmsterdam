@@ -1,0 +1,26 @@
+@prefix : <http://www.notjustamsterdam.org/> .
+@prefix nja: <http://www.notjustamsterdam.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://www.notjustamsterdam.org/> .
+
+
+{
+
+nja:Challenge001 a nja:Challenge ;
+        rdfs:label "Test Challenge 1" ;
+	nja:challenge_id "cl001" ;
+        nja:challenge_type "Recreational Smoker" ;
+        nja:challenge_description "Visit Dizzy Duck coffeeshop in the Hague, buy a pre-rolled joint and smoke it in the park that is nearby. To prove the completion take a selfie in the park with the joint!"^^xsd:string ;
+        nja:challenge_cost "35.0"^^xsd:float ;
+        nja:challenge_benefit "Discount on the ticket to visit the Hague, discount on the product required to complete the challenge from Dizzy Duck coffee shop"^^xsd:string ;
+	nja:challenge_address "Trompstraat 210, 2518 BR Den Haag"^^xsd:string ;
+	nja:challenge_city "The Hague"^^xsd:string .
+}
+
