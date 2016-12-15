@@ -1,42 +1,54 @@
+@prefix : <http://www.notjustamsterdam.org/> .
+@prefix nja: <http://www.notjustamsterdam.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://www.notjustamsterdam.org/> .
+
 
 {
 
-nja:Challenge001 a nja:Challenge ;
-        rdfs:label "Milk Make You Stronger" ;
-	nja:challenge_id "cl001" ;
+nja:Challenge010 a nja:Challenge ;
+        rdfs:label "Milk Makes You Stronger" ;
+	nja:challenge_id "cl010" ;
         nja:challenge_type "Culture Freak" ;
-        nja:challenge_description "Take a picture pretending to lift the cheese scale.";
+        nja:challenge_description "Take a picture pretending to lift the cheese scale" ;
         nja:challenge_cost "25.0"^^xsd:float ;
         nja:challenge_benefit "Discount of the first kilo of Gouda's Cheese"^^xsd:string ;
 	nja:challenge_address "Markt 35, 2801 JK Gouda"^^xsd:string ;
 	nja:challenge_city "Gouda"^^xsd:string .
 
 
-nja:Challenge002 a nja:Challenge ;
+nja:Challenge020 a nja:Challenge ;
         rdfs:label "Is this art?" ;
-	nja:challenge_id "cl002" ;
+	nja:challenge_id "cl020" ;
         nja:challenge_type "Culture Freak" ;
         nja:challenge_description "Go to the Museum Boijmans Van Beuningen and take a picture with piece of art you like the least"^^xsd:string ;
         nja:challenge_cost "33.0"^^xsd:float ;
-        nja:challenge_benefit "Go the t-shirt with the picture of the opera you didn't like with the caption "Is this art?" "^^xsd:string ;
+        nja:challenge_benefit "Go the t-shirt with the picture of the opera you didn't like with the caption, Is this art?"^^xsd:string ;
 	nja:challenge_address "Museumpark 18, 3015 CX Rotterdam"^^xsd:string ;
 	nja:challenge_city "Rotterdam"^^xsd:string .
 
 
-nja:Challenge003 a nja:Challenge ;
-        rdfs:label "" ;
-	nja:challenge_id "cl003" ;
+nja:Challenge030 a nja:Challenge ;
+        rdfs:label "Smartypants.." ;
+	nja:challenge_id "cl030" ;
         nja:challenge_type "Culture Freak" ;
-        nja:challenge_description "Go to the museum Teylers, take a picture pretending to be super smart!"^^xsd:string ;
+        nja:challenge_description "Go to the museum Teylers, take a picture looking super smart!"^^xsd:string ;
         nja:challenge_cost "18.0"^^xsd:float ;
         nja:challenge_benefit "Get free glasses to look smart"^^xsd:string ;
 	nja:challenge_address "Spaarne 16, 2011 CH Haarlem"^^xsd:string ;
 	nja:challenge_city "Haarlem"^^xsd:string .
 
 
-nja:Challenge004 a nja:Challenge ;
+nja:Challenge040 a nja:Challenge ;
         rdfs:label "Seeing Green" ;
-	nja:challenge_id "cl004" ;
+	nja:challenge_id "cl040" ;
         nja:challenge_type "Culture Freak" ;
         nja:challenge_description "Go to the free part of the Eye Museum and make the green screen video."^^xsd:string ;
         nja:challenge_cost "5.0"^^xsd:float ;
@@ -45,31 +57,29 @@ nja:Challenge004 a nja:Challenge ;
 	nja:challenge_city "Amsterdam"^^xsd:string .
 
 
-nja:Challenge005 a nja:Challenge ;
-        rdfs:label "" ;
-	nja:challenge_id "cl005" ;
+nja:Challenge050 a nja:Challenge ;
+        rdfs:label "Biodiversium" ;
+	nja:challenge_id "cl050" ;
         nja:challenge_type "Culture Freak" ;
-        nja:challenge_description ""Go to the Naturalis Biodiversity Center and take a picture pretending to be an animal^^xsd:string ;
+        nja:challenge_description "Go to the Naturalis Biodiversity Center and take a picture pretending to be an animal"^^xsd:string ;
         nja:challenge_cost "25.0"^^xsd:float ;
         nja:challenge_benefit "Discount on the way back ticket to Amsterdam"^^xsd:string ;
 	nja:challenge_address "Darwinweg 2, 2333 CR Leiden"^^xsd:string ;
 	nja:challenge_city "Leiden"^^xsd:string .
 
 
-
-
-	nja:Challenge006 a nja:Challenge ;
-        rdfs:label "Taste the sugar" ;
-	nja:challenge_id "cl001" ;
-        nja:challenge_type "Party Animal" ;
-        nja:challenge_description "Go to the sugarfactory and take a photo with 5 different people.";
-        nja:challenge_cost "15.0"^^xsd:float ;
-        nja:challenge_benefit "Personalized T-Shirt of the Sugar Factory"^^xsd:string ;
+nja:Challenge060 a nja:Challenge ;
+	rdfs:label "Taste the sugar" ;
+	nja:challenge_id "cl060" ;
+	nja:challenge_type "Party Animal" ;
+	nja:challenge_description "Go to the sugarfactory and take a photo with 5 different people."^^xsd:string ;
+	nja:challenge_cost "15.0"^^xsd:float ;
+	nja:challenge_benefit "Personalized T-Shirt of the Sugar Factory"^^xsd:string ;
 	nja:challenge_address "Lijnbaansgracht 238, 1017 PH Amsterdam"^^xsd:string ;
 	nja:challenge_city "Amsterdam"^^xsd:string .
 
 
-nja:Challenge007 a nja:Challenge ;
+nja:Challenge070 a nja:Challenge ;
         rdfs:label "The weight of the night" ;
 	nja:challenge_id "cl002" ;
         nja:challenge_type "Party Animal" ;
@@ -80,7 +90,7 @@ nja:Challenge007 a nja:Challenge ;
 	nja:challenge_city "Delft"^^xsd:string .
 
 
-nja:Challenge008 a nja:Challenge ;
+nja:Challenge080 a nja:Challenge ;
         rdfs:label "Club Poema" ;
 	nja:challenge_id "cl008" ;
         nja:challenge_type "Party Animal" ;
@@ -91,7 +101,7 @@ nja:Challenge008 a nja:Challenge ;
 	nja:challenge_city "Utrecht"^^xsd:string .
 
 
-nja:Challenge009 a nja:Challenge ;
+nja:Challenge090 a nja:Challenge ;
         rdfs:label "The Empire strikes back!" ;
 	nja:challenge_id "cl009" ;
         nja:challenge_type "Recreational Smoker" ;
@@ -102,7 +112,7 @@ nja:Challenge009 a nja:Challenge ;
 	nja:challenge_city "Rotterdam"^^xsd:string .
 
 
-nja:Challenge010 a nja:Challenge ;
+nja:Challenge011 a nja:Challenge ;
         rdfs:label "You have a friend in M2" ;
 	nja:challenge_id "cl010" ;
         nja:challenge_type "Party Animal" ;
@@ -111,7 +121,4 @@ nja:Challenge010 a nja:Challenge ;
         nja:challenge_benefit "Get a free cd with the best track of the club."^^xsd:string ;
 	nja:challenge_address "Stratumseind 99, 5611 ER Eindhoven"^^xsd:string ;
 	nja:challenge_city "Eindhoven"^^xsd:string .
-
-}
-
 }
