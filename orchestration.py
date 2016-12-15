@@ -4,7 +4,7 @@
 import json, os
 from os.path import join, dirname
 import numpy as np
-import PersonalityInsight, tradeOff
+import personalityInsight, tradeOff
 
 def profileMaking(personal_data, questionnaire_answers, budget, time):
     """

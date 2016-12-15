@@ -13,8 +13,6 @@ def analyze(profile):
     with open(os.path.join(os.path.dirname(__file__), './resources/challenges.json')) as challenges:
         dilemma = tradeoff_analytics.dilemmas(json.load(challenges), generate_visualization=True)
 
-    #print(json.dumps(dilemma, indent=2))
-
     potential_challenges = {}
 
     return potential_challenges
